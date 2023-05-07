@@ -1,3 +1,4 @@
 import Navbar from "./Navbar";
 import Main from "./Main";
-export {Navbar, Main}
+import Button from "./Button";
+export {Navbar, Main, Button}
