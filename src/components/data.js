@@ -12,5 +12,14 @@ const navLinks = [
     content: "Resources",
   },
 ];
-const 
-export{navLinks}
+const CTA = [
+  {
+    id: 1,
+    content: "Login",
+  },
+  {
+    id: 2,
+    content: "Sign Up",
+  },
+];
+export{navLinks, CTA}
