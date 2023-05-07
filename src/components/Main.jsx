@@ -8,11 +8,11 @@ const Main = () => {
         <h1 className="text-5xl text-VeryDarkBlue font-bold mt-7 md:mt-0">
           More than just <br /> shorter links
         </h1>
-        <p className="max-w-md">
+        <p className="max-w-md text-GrayishViolet font-semibold">
           Build your brand’s recognition and get detailed insights on how your
           links are performing.
         </p>
-        <Button value={"Get Started"} style={"rounded-full w-[200px] mx-auto"} />
+        <Button value={"Get Started"} style={"rounded-full w-[200px] mx-auto md:mx-0 py-3"} />
       </div>
       <img
         src={working}

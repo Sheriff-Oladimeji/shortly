@@ -2,7 +2,7 @@
 
 const Button = ({style, value}) => {
   return (
-      <button className={`${style} bg-Cyan text-[#fff] py-2 text-center`}>{ value}</button>
+      <button className={`${style} bg-Cyan text-[#fff] text-center`}>{ value}</button>
   )
 }
 
