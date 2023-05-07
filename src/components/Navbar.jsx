@@ -34,14 +34,21 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      <nav className="md:hidden">
+      <nav className="md:hidden relative h-[200px]">
         <div className="flex items-center justify-between py-8 w-[90%] mx-auto">
           <img src={logo} alt="logo" />
-          <button className="bg-none text-GrayishViolet cursor-pointer font-bold">
+          <button
+            className="bg-none text-GrayishViolet cursor-pointer font-bold"
+            onClick={() => setToggle(!toggle)}
+          >
             <SlMenu size={30} />
           </button>
         </div>
-        <ul className="w-[90%] mx-auto my-1 py-4 bg-DarkViolet text-[#fff]  rounded-xl space-y-6 flex flex-col items-center py-8">
+        <ul
+          className={`${
+            toggle === true ? "scale-100 " : "scale-0"
+          } w-[90%] mx-auto my-1  bg-DarkViolet text-[#fff]  rounded-xl space-y-6 flex flex-col items-center py-8 z-50 transform duration-300 relative`}
+        >
           {navLinks.map((link) => (
             <li key={link.id}>
               <a href={`#${link.content}`}>{link.content}</a>
