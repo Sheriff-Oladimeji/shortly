@@ -12,3 +12,5 @@ const navLinks = [
     content: "Resources",
   },
 ];
+const 
+export{navLinks}
