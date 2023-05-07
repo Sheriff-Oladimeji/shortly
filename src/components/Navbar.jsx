@@ -47,7 +47,7 @@ const Navbar = () => {
         <ul
           className={`${
             toggle === true ? "scale-100 " : "scale-0"
-          } w-[90%] mx-auto my-1  bg-DarkViolet text-[#fff]  rounded-xl space-y-6 flex flex-col items-center py-8 z-50 transform duration-300 relative`}
+          } w-[90%] mx-auto my-1  bg-DarkViolet text-[#fff]  rounded-xl space-y-6 flex flex-col items-center py-8 z-50 transform duration-300 relative h-[400px]`}
         >
           {navLinks.map((link) => (
             <li key={link.id}>
