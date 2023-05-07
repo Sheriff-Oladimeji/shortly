@@ -1,2 +1,3 @@
 import logo from "./logo.svg"
-export{logo}
+import working from "./illustration-working.svg";
+export{logo, working}
