@@ -17,7 +17,8 @@ const Main = () => {
       <img
         src={working}
         alt=""
-        className=" relative w-[100%] md:w-[60%] md:-mr-[20%]"
+        className=" relative w-[100%] md:w-[880px] md:-mr-[20%] float-right  overflow-x-hidden"
+        draggable="false"
       />
     </main>
   );
