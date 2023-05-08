@@ -1,7 +1,7 @@
 import Shorten from "./Shorten"
 import Statistics from "./Statistics"
 
-const Service = () => {
+const Services = () => {
   return (
     <section className="w-full bg-Gray">
       <Shorten/>
@@ -10,4 +10,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default Services
