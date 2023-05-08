@@ -9,7 +9,10 @@ const Shorten = () => {
           className="p-4  border-none w-full md:w-3/4 rounded-md outline-none placeholder:font-semibold placeholder:text-GrayishViolet"
           placeholder="Shorten a link here..."
         />
-        <Button style={`py-4 md:w-1/4 rounded-md font-bold`} value={"Shorten It!"} />
+        <Button
+          style={`py-4 md:w-1/4 rounded-md font-bold`}
+          value={"Shorten It!"}
+        />
       </form>
     </section>
   );

@@ -2,7 +2,7 @@
 const Statistics = () => {
   return (
       <section>
-          
+         
    </section>
   )
 }
