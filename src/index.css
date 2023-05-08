@@ -3,6 +3,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.shorten-bg{
-    background: url("./assets/bg-shorten-desktop.svg") no-repeat center center/cover;
-}
