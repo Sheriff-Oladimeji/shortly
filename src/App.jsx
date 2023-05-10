@@ -1,4 +1,4 @@
-import { Main, Navbar , Shorten, Statistics} from "./components"
+import { Main, Navbar, Shorten, Statistics } from "./components";
 
 const App = () => {
   return (
@@ -6,9 +6,9 @@ const App = () => {
       <Navbar />
       <Main />
       <Shorten />
-      <Statistics/>
+      <Statistics />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
