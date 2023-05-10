@@ -6,7 +6,9 @@ const App = () => {
       <Navbar />
       <Main />
       <Shorten />
-      <Statistics />
+      <div className="w-full bg-Gray">
+        <Statistics />
+      </div>
     </div>
   );
 };
