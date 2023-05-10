@@ -2,7 +2,8 @@ import Button from "./Button";
 
 const Shorten = () => {
   return (
-    <section className=" w-[90%] md:w-[80%] mx-auto bg-DarkViolet py-8 my-8 rounded-md">
+    <section className="shorten-bg w-[90%] md:w-[80%] mx-auto bg-DarkViolet py-8 my-8 rounded-md" >
+      <div></div>
       <form className="w-[90%] flex flex-col md:flex-row mx-auto gap-4 md:gap-8">
         <input
           type="text"

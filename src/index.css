@@ -3,3 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.shorten-bg{
+    background: url(./assets/bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+}
+@media(max-width: 640px){
+    .shorten-bg{
+    background: url(./assets/bg-shorten-mobile.svg) no-repeat center;
+    background-color: hsl(257, 27%, 26%);
+    }
+}
