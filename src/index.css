@@ -25,6 +25,10 @@
     background-color: hsl(257, 27%, 26%);
     top: -50%;
 left: 5%;
-        margin-top: 400px;
+        margin-top: 430px;
+    }
+    .container-bg{
+        padding-top: 160px;
+     
     }
 }
