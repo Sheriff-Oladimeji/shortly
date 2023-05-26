@@ -5,8 +5,9 @@ const App = () => {
     <div className="text-[18px]">
       <Navbar />
       <Main />
-      <Shorten />
-      <div className="w-full bg-Gray">
+
+      <div className="container-bg">
+        <Shorten />
         <Statistics />
       </div>
     </div>

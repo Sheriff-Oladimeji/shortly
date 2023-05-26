@@ -6,10 +6,25 @@
 .shorten-bg{
     background: url(./assets/bg-shorten-desktop.svg);
     background-color: hsl(257, 27%, 26%);
+    position: absolute;
+    top: -50%;
+    left: 10%;
+    margin-top: 170px;
 }
+.container-bg{
+    width: 100%;
+    background-color: hsl(0, 9%, 82%);
+    position: relative;
+    padding-top: 100px;
+    margin-top: 150px;
+}
+
 @media(max-width: 640px){
     .shorten-bg{
     background: url(./assets/bg-shorten-mobile.svg) no-repeat center;
     background-color: hsl(257, 27%, 26%);
+    top: -50%;
+left: 5%;
+        margin-top: 400px;
     }
 }
