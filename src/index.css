@@ -7,25 +7,29 @@
     background: url(./assets/bg-shorten-desktop.svg);
     background-color: hsl(257, 27%, 26%);
     position: absolute;
-    top: -50%;
-    left: 10%;
-    margin-top: 170px;
+ top: -20%;
+
+   
 }
 .container-bg{
     width: 100%;
     background-color: hsl(0, 9%, 82%);
     position: relative;
-    padding-top: 100px;
+    padding-top: 150px;
     margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width: 640px){
     .shorten-bg{
     background: url(./assets/bg-shorten-mobile.svg) no-repeat center;
     background-color: hsl(257, 27%, 26%);
-    top: -50%;
-left: 5%;
-        margin-top: 430px;
+    top: -12%;
+   
+    margin-inline:auto ;
+
     }
     .container-bg{
         padding-top: 160px;
